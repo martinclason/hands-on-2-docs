@@ -96,6 +96,11 @@ class HDMolecule:
 
 
 def analyze_N2(distance):
+    """Prints out an analysis of a N2 molecule with the given bond length.
+
+    Args:
+        distance (float): The bond length between the atoms in Ångström (Å).
+    """
 
     N2 = HDMolecule("N", distance)
 
